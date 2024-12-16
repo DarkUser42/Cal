@@ -1,0 +1,272 @@
+#buttons1 > div:nth-child(1) > svg,
+#buttons3 > div:nth-child(1) > svg {
+  width: 40px;
+  height: 40px;
+}
+
+.Button-group1 > div.bold,
+.Button-group1 > div > p.bold,
+.ProButton.bold,
+.unit-button.bold {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.Button-group1 > div > span,
+#ProButtons2 > div > span {
+  position: absolute;
+  border-radius: 5px;
+  width: 3px;
+  height: 25px;
+  background: var(--White);
+}
+
+.Button-group1 > div {
+  background-color: var(--Dark-Color);
+}
+
+.Button-group1 > div:hover {
+  background-color: var(--Middle-Color);
+}
+
+.Button-group1 > div > p {
+  margin: 0 !important;
+}
+
+#buttons2 > div:nth-child(5),
+#buttons4 > div:nth-child(5),
+#ProButtons2 > .ProButton:nth-child(30),
+.unit-button:nth-child(3) {
+  background: var(--Blue-Color);
+}
+
+#buttons2 > div:hover:nth-child(5),
+#buttons4 > div:hover:nth-child(5),
+#ProButtons2 > .ProButton:hover:nth-child(30),
+.unit-button:hover:nth-child(3) {
+  background-color: var(--DBlue-Color);
+}
+
+.Button-group1 > div.c.click,
+.navButton.c.click,
+#DarkLightMode.c.click {
+  background: var(--Bright-Color);
+  transition: background 0.1s ease;
+}
+
+#buttons2 > div.click:nth-child(5),
+#buttons4 > div.click:nth-child(5),
+#ProButtons2 > .ProButton.click:nth-child(30),
+.unit-button.click:nth-child(3) {
+  background: var(--Blue-Color);
+  transition: background 0.1s ease;
+}
+
+/* custom 1 */
+
+#buttons2 > div:nth-child(15) > span:nth-child(2),
+#buttons2 > div:nth-child(20) > span,
+#buttons2 > div:nth-child(30) > span:nth-child(1),
+#ProButtons2 > .ProButton:nth-child(10) > span:nth-child(1),
+#ProButtons2 > .ProButton:nth-child(15) > span,
+#ProButtons2 > .ProButton:nth-child(25) > span:nth-child(1) {
+  transform: rotate(90deg);
+}
+
+#buttons2 > div:nth-child(5) > span:nth-child(1),
+#buttons4 > div:nth-child(5) > span:nth-child(1),
+#ProButtons2 > .ProButton:nth-child(30) > span:nth-child(1),
+.unit-button:nth-child(3) > span:nth-child(1) {
+  transform: rotate(90deg) translateX(5px);
+  background: var(--Dark-Color);
+}
+
+#buttons2 > div:nth-child(5) > span:nth-child(2),
+#buttons4 > div:nth-child(5) > span:nth-child(2),
+#ProButtons2 > .ProButton:nth-child(30) > span:nth-child(2),
+.unit-button:nth-child(3) > span:nth-child(2) {
+  transform: rotate(90deg) translateX(-5px);
+  background: var(--Dark-Color);
+}
+
+#buttons2 > div:nth-child(7) > span:nth-child(1),
+#ProButtons2 > .ProButton:nth-child(7) > span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+#buttons2 > div:nth-child(7) > span:nth-child(2),
+#ProButtons2 > .ProButton:nth-child(7) > span:nth-child(2) {
+  transform: translateX(8px) translateY(6px);
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border: 2.5px solid var(--White);
+}
+
+#buttons2 > div:nth-child(7) > span:nth-child(3),
+#ProButtons2 > .ProButton:nth-child(7) > span:nth-child(3) {
+  transform: translateX(-8px) translateY(-6px);
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border: 2.5px solid var(--White);
+}
+
+#buttons2 > div:nth-child(25) > span:nth-child(1),
+#ProButtons2 > .ProButton:nth-child(20) > span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+#buttons2 > div:nth-child(25) > span:nth-child(2),
+#ProButtons2 > .ProButton:nth-child(20) > span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+#buttons2 > div:nth-child(27) > span:nth-child(1),
+#ProButtons2 > .ProButton:nth-child(27) > span:nth-child(1) {
+  transform: rotate(45deg);
+  height: 35px;
+}
+
+#buttons2 > div:nth-child(27) > span:nth-child(2),
+#ProButtons2 > .ProButton:nth-child(27) > span:nth-child(2) {
+  transform: rotate(90deg) translateX(-8px) translateY(15px);
+  width: 2px;
+  height: 15px;
+}
+
+#buttons2 > div:nth-child(27) > span:nth-child(3),
+#ProButtons2 > .ProButton:nth-child(27) > span:nth-child(3) {
+  transform: translateX(-15px) translateY(-8px);
+  width: 2px;
+  height: 15px;
+}
+
+#buttons2 > div:nth-child(27) > span:nth-child(4),
+#ProButtons2 > .ProButton:nth-child(27) > span:nth-child(4) {
+  transform: rotate(90deg) translateX(8px) translateY(-15px);
+  width: 2px;
+  height: 15px;
+}
+
+#buttons2 > div:nth-child(30) > span:nth-child(3),
+#ProButtons2 > .ProButton:nth-child(25) > span:nth-child(3) {
+  width: 4px;
+  height: 4px;
+  transform: translateY(10px);
+}
+
+#buttons2 > div:nth-child(30) > span:nth-child(2),
+#ProButtons2 > .ProButton:nth-child(25) > span:nth-child(2) {
+  width: 4px;
+  height: 4px;
+  transform: translateY(-10px);
+}
+
+#buttons2 > div:nth-child(16) > p {
+  transform: translateY(-8px);
+  font-size: 1.5rem;
+}
+
+/* custom 2 */
+
+#buttons4 > div:nth-child(20) > p {
+  transform: translateY(7px);
+  font-size: 1.5rem;
+}
+
+#buttons4 > div:nth-child(25) > p {
+  transform: translateY(-8px);
+  font-size: 1.75rem;
+}
+
+#buttons4 > div:nth-child(30) > p:nth-child(1) {
+  transform: translateY(-14px) translateX(12px);
+  font-size: 1.5rem;
+}
+
+#buttons4 > div:nth-child(30) > p:nth-child(3) {
+  transform: translateY(3px) translateX(-10px);
+  font-size: 2rem;
+}
+
+/* Units */
+
+.unit-button > span {
+  position: absolute;
+  border-radius: 5px;
+  width: 3px;
+  height: 25px;
+  background: var(--White);
+}
+
+.unit-button:nth-child(13) > span:nth-child(1) {
+  transform: rotate(45deg);
+  height: 35px;
+}
+
+.unit-button:nth-child(13) > span:nth-child(2) {
+  transform: rotate(90deg) translateX(-8px) translateY(15px);
+  width: 2px;
+  height: 15px;
+}
+
+.unit-button:nth-child(13) > span:nth-child(3) {
+  transform: translateX(-15px) translateY(-8px);
+  width: 2px;
+  height: 15px;
+}
+
+.unit-button:nth-child(13) > span:nth-child(4) {
+  transform: rotate(90deg) translateX(8px) translateY(-15px);
+  width: 2px;
+  height: 15px;
+}
+
+.unit-toggle > svg {
+  max-height: 85px;
+}
+
+.unit-toggle:nth-child(2) > svg {
+  transform: rotate(180deg);
+}
+
+.pnUnitButtonSVG {
+  fill: var(--Middle-Color);
+  transition: fill 0.15s ease;
+}
+
+.unitCalculateIcon > span {
+  position: absolute;
+  width: 3px;
+  height: 35px;
+  border-radius: 5px;
+  background: var(--White);
+  transition: background-color 0.25s ease;
+}
+
+#unit-plus > span:nth-child(1),
+#unit-minus > span,
+#unit-divide > span:nth-child(1) {
+  transform: rotate(90deg);
+}
+
+#unit-multi > span:nth-child(1) {
+  transform: rotate(45deg);
+}
+
+#unit-multi > span:nth-child(2) {
+  transform: rotate(-45deg);
+}
+
+#unit-divide > span:nth-child(2) {
+  width: 5px;
+  height: 5px;
+  transform: translateY(13px);
+}
+
+#unit-divide > span:nth-child(3) {
+  width: 5px;
+  height: 5px;
+  transform: translateY(-13px);
+}
